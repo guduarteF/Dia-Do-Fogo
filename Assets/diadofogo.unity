@@ -472,6 +472,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &118757974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 118757975}
+  m_Layer: 0
+  m_Name: carta (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &118757975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118757974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.15, y: -4.06, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1613909276}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &126552524
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,35 +715,6 @@ MonoBehaviour:
   - {fileID: 1576946818}
   - {fileID: 1623189823}
   - {fileID: 476073348}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &164128649
 Transform:
@@ -951,35 +952,6 @@ MonoBehaviour:
   - {fileID: 1860179675}
   - {fileID: 1368815441}
   - {fileID: 641508474}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &190922674
 GameObject:
@@ -1017,35 +989,6 @@ MonoBehaviour:
   - {fileID: 1312559540}
   - {fileID: 1576946818}
   - {fileID: 164128647}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &190922676
 Transform:
@@ -1082,7 +1025,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &195575583
 Transform:
   m_ObjectHideFlags: 0
@@ -1900,13 +1843,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303653308}
-  m_LocalRotation: {x: -0, y: -0, z: -0.15046254, w: 0.98861575}
+  m_LocalRotation: {x: 0, y: 0, z: -0.17364825, w: 0.9848078}
   m_LocalPosition: {x: 4.75, y: -4.78, z: 4.1103516}
   m_LocalScale: {x: 1.4041, y: 1.4041, z: 1.4041}
   m_Children: []
   m_Father: {fileID: 1613909276}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -17.307001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -20}
 --- !u!212 &303653310
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3284,35 +3227,6 @@ MonoBehaviour:
   - {fileID: 1623189823}
   - {fileID: 741621338}
   - {fileID: 1882265458}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &476073350
 Transform:
@@ -3450,35 +3364,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 2113859714}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &493354009
 Transform:
@@ -4095,35 +3980,6 @@ MonoBehaviour:
   - {fileID: 1348223468}
   - {fileID: 2019130859}
   - {fileID: 611765091}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &579805259
 Transform:
@@ -4280,35 +4136,6 @@ MonoBehaviour:
   - {fileID: 2019130859}
   - {fileID: 0}
   - {fileID: 0}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &618869266
 GameObject:
@@ -4472,6 +4299,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &622560745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 622560746}
+  m_Layer: 0
+  m_Name: carta
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &622560746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622560745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.46, y: -4.46, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1613909276}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &635551136
 GameObject:
   m_ObjectHideFlags: 0
@@ -4589,35 +4446,6 @@ MonoBehaviour:
   - {fileID: 1368815441}
   - {fileID: 827455875}
   - {fileID: 1775581915}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &641508476
 Transform:
@@ -4897,7 +4725,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &671275307
 Transform:
   m_ObjectHideFlags: 0
@@ -5260,35 +5088,6 @@ MonoBehaviour:
   - {fileID: 1571802531}
   - {fileID: 579805257}
   - {fileID: 1712117876}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &757208708
 GameObject:
@@ -5695,6 +5494,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &786934044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 786934045}
+  m_Layer: 0
+  m_Name: carta (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &786934045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786934044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7, y: -4.18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1613909276}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &797247024
 GameObject:
   m_ObjectHideFlags: 0
@@ -5785,6 +5614,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 809843480}
+  - component: {fileID: 809843481}
   m_Layer: 0
   m_Name: Tabuleiro
   m_TagString: Untagged
@@ -5835,6 +5665,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &809843481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809843479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02021434689cf5943920565e44694666, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  todos:
+  - {fileID: 1571802531}
+  - {fileID: 1623189823}
+  - {fileID: 1576946818}
+  - {fileID: 827455875}
+  - {fileID: 1444406534}
+  - {fileID: 1312559540}
+  - {fileID: 1869152812}
+  - {fileID: 182300259}
+  - {fileID: 1348223468}
+  - {fileID: 1712117876}
+  - {fileID: 741621338}
+  - {fileID: 611765091}
+  - {fileID: 2019130859}
+  - {fileID: 641508474}
+  - {fileID: 579805257}
+  - {fileID: 1368815441}
+  - {fileID: 1860179675}
+  - {fileID: 1667585188}
+  - {fileID: 190922674}
+  - {fileID: 164128647}
+  - {fileID: 476073348}
+  - {fileID: 1882265458}
+  - {fileID: 2094179009}
+  - {fileID: 1923412794}
+  - {fileID: 1363386749}
+  - {fileID: 493354007}
+  - {fileID: 2113859714}
+  - {fileID: 1785624595}
 --- !u!1 &812477418
 GameObject:
   m_ObjectHideFlags: 0
@@ -5971,35 +5842,6 @@ MonoBehaviour:
   - {fileID: 1363386749}
   - {fileID: 493354007}
   - {fileID: 1444406534}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &835363711
 GameObject:
@@ -8884,35 +8726,6 @@ MonoBehaviour:
   - {fileID: 182300259}
   - {fileID: 641508474}
   - {fileID: 1576946818}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &1314635411
 GameObject:
@@ -9212,35 +9025,6 @@ MonoBehaviour:
   - {fileID: 2113859714}
   - {fileID: 1785624595}
   - {fileID: 2019130859}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &1352521460
 GameObject:
@@ -9397,35 +9181,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &1363386751
 Transform:
@@ -9563,35 +9318,6 @@ MonoBehaviour:
   - {fileID: 1923412794}
   - {fileID: 1363386749}
   - {fileID: 827455875}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &1368815443
 Transform:
@@ -10234,35 +9960,6 @@ MonoBehaviour:
   - {fileID: 493354007}
   - {fileID: 2113859714}
   - {fileID: 1348223468}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &1454442750
 GameObject:
@@ -11090,7 +10787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1547160577
 Transform:
   m_ObjectHideFlags: 0
@@ -11446,35 +11143,6 @@ MonoBehaviour:
   - {fileID: 1444406534}
   - {fileID: 1348223468}
   - {fileID: 579805257}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &1576946818
 GameObject:
@@ -11531,35 +11199,6 @@ MonoBehaviour:
   - {fileID: 641508474}
   - {fileID: 1775581915}
   - {fileID: 1623189823}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &1606238492
 GameObject:
@@ -11732,6 +11371,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1613909276}
+  - component: {fileID: 1613909277}
   m_Layer: 0
   m_Name: mao
   m_TagString: Untagged
@@ -11747,17 +11387,34 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613909275}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2877, y: 2.1, z: -7.1588}
-  m_LocalScale: {x: 1.7416, y: 1.7416, z: 1.7416}
+  m_LocalPosition: {x: -0.97, y: 0.72, z: -5.6158}
+  m_LocalScale: {x: 1.3661982, y: 1.3661982, z: 1.3661982}
   m_Children:
   - {fileID: 303653309}
   - {fileID: 1183171203}
   - {fileID: 1917518489}
   - {fileID: 1555952802}
   - {fileID: 2089633398}
+  - {fileID: 622560746}
+  - {fileID: 786934045}
+  - {fileID: 118757975}
+  - {fileID: 1911322666}
+  - {fileID: 1958305803}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1613909277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613909275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 426063bdc2271634fa7bf1b2463949e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1623189823
 GameObject:
   m_ObjectHideFlags: 0
@@ -11813,35 +11470,6 @@ MonoBehaviour:
   - {fileID: 1775581915}
   - {fileID: 1571802531}
   - {fileID: 741621338}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &1640115351
 GameObject:
@@ -12152,35 +11780,6 @@ MonoBehaviour:
   - {fileID: 1869152812}
   - {fileID: 182300259}
   - {fileID: 1312559540}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &1667585190
 Transform:
@@ -12580,35 +12179,6 @@ MonoBehaviour:
   - {fileID: 579805257}
   - {fileID: 611765091}
   - {fileID: 0}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &1734164870
 GameObject:
@@ -13197,7 +12767,6 @@ MonoBehaviour:
   - {fileID: 827455875}
   - {fileID: 1444406534}
   - {fileID: 1571802531}
-  todos: []
   pegandofogo: 0
 --- !u!1 &1785624595
 GameObject:
@@ -13254,35 +12823,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &1794410354
 GameObject:
@@ -13953,35 +13493,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 1923412794}
   - {fileID: 1368815441}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &1860179677
 Transform:
@@ -14138,35 +13649,6 @@ MonoBehaviour:
   - {fileID: 1869152812}
   - {fileID: 182300259}
   - {fileID: 1312559540}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &1881153711
 GameObject:
@@ -14285,35 +13767,6 @@ MonoBehaviour:
   - {fileID: 741621338}
   - {fileID: 1712117876}
   - {fileID: 0}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &1882265460
 Transform:
@@ -14496,6 +13949,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1911322665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1911322666}
+  m_Layer: 0
+  m_Name: carta (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1911322666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911322665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.06, y: -4.08, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1613909276}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1917518488
 GameObject:
   m_ObjectHideFlags: 0
@@ -14520,13 +14003,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917518488}
-  m_LocalRotation: {x: -0, y: -0, z: 0.074418776, w: 0.9972271}
+  m_LocalRotation: {x: 0, y: 0, z: 0.06975647, w: 0.9975641}
   m_LocalPosition: {x: -0.61, y: -4.27, z: 4.1103516}
   m_LocalScale: {x: 1.4041, y: 1.4041, z: 1.4041}
   m_Children: []
   m_Father: {fileID: 1613909276}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8.536}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8}
 --- !u!212 &1917518490
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14613,35 +14096,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 1363386749}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &1923412796
 Transform:
@@ -15067,6 +14521,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1958305802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1958305803}
+  m_Layer: 0
+  m_Name: carta (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1958305803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958305802}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.82, y: -4.51, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1613909276}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1960589373
 GameObject:
   m_ObjectHideFlags: 0
@@ -15608,35 +15092,6 @@ MonoBehaviour:
   - {fileID: 1785624595}
   - {fileID: 0}
   - {fileID: 0}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!1 &2040735802
 GameObject:
@@ -15824,13 +15279,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089633397}
-  m_LocalRotation: {x: -0, y: -0, z: -0.072257005, w: 0.9973861}
+  m_LocalRotation: {x: 0, y: 0, z: -0.06975647, w: 0.9975641}
   m_LocalPosition: {x: 3.06, y: -4.27, z: 4.1103516}
   m_LocalScale: {x: 1.4041, y: 1.4041, z: 1.4041}
   m_Children: []
   m_Father: {fileID: 1613909276}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8.287001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8}
 --- !u!212 &2089633399
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15917,35 +15372,6 @@ MonoBehaviour:
   - {fileID: 1667585188}
   - {fileID: 1312559540}
   - {fileID: 190922674}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
-  - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &2094179011
 Transform:
@@ -16297,35 +15723,6 @@ MonoBehaviour:
   - {fileID: 493354007}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 1785624595}
-  todos:
-  - {fileID: 1571802531}
-  - {fileID: 1623189823}
-  - {fileID: 1576946818}
-  - {fileID: 827455875}
-  - {fileID: 1444406534}
-  - {fileID: 1312559540}
-  - {fileID: 1869152812}
-  - {fileID: 182300259}
-  - {fileID: 1348223468}
-  - {fileID: 1712117876}
-  - {fileID: 741621338}
-  - {fileID: 611765091}
-  - {fileID: 2019130859}
-  - {fileID: 641508474}
-  - {fileID: 579805257}
-  - {fileID: 1368815441}
-  - {fileID: 1860179675}
-  - {fileID: 1667585188}
-  - {fileID: 190922674}
-  - {fileID: 164128647}
-  - {fileID: 476073348}
-  - {fileID: 1882265458}
-  - {fileID: 2094179009}
-  - {fileID: 1923412794}
-  - {fileID: 1363386749}
-  - {fileID: 493354007}
-  - {fileID: 2113859714}
   - {fileID: 1785624595}
   pegandofogo: 0
 --- !u!4 &2113859716

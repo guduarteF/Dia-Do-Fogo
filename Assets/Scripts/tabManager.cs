@@ -10,17 +10,23 @@ public class tabManager : MonoBehaviour
     public bool pegandofogo;
     private GameObject pai1, pai2;
     private bool once, once2, once3, once4, once5, once6,once7,once8;
+    private Transform childdachild, child;
+    
 
     void Start()
     {
         pegandofogo = false;
         tm = this;
         once2 = false;
+
+       
     }
 
     // Update is called once per frame
     void Update()
     {
+        #region SWITCH
+
         switch (turnos.t.turno)
         {
             case 0:
@@ -251,6 +257,9 @@ public class tabManager : MonoBehaviour
 
         }
     }
+
+    #endregion
+
     #region INICIAL
     public void fogoInicial()
     {
@@ -259,9 +268,20 @@ public class tabManager : MonoBehaviour
         if(faces[randomfogo].GetComponent<tabManager>().pegandofogo == false)
         {
             GameObject pai1 = faces[randomfogo];
-            
-            Transform child = pai1.transform.Find("fogo_2_floresta");
-           
+
+            if (pai1.transform.Find("fogo_1_floresta").gameObject.active == true)
+            {
+                child = pai1.transform.Find("fogo_1_floresta");
+            }
+            else if (pai1.transform.Find("fogo_2_floresta").gameObject.active == true)
+            {
+                child = pai1.transform.Find("fogo_2_floresta");
+            }
+            else
+            {
+                child = pai1.transform.Find("fogo_3_floresta");
+            }
+
             child.GetComponent<SpriteRenderer>().color = new Color(255, 0, 0);
             pai1.GetComponent<tabManager>().pegandofogo = true;
             if(this.pai1 == null)
@@ -289,6 +309,7 @@ public class tabManager : MonoBehaviour
         if (pai.GetComponent<tabManager>().faces[randomfogo] != null && pai.GetComponent<tabManager>().faces[randomfogo].name != "meio_casa" && pai.GetComponent<tabManager>().faces[randomfogo].GetComponent<tabManager>().pegandofogo == false)
         {
             
+
             GameObject paigo = pai.GetComponent<tabManager>().faces[randomfogo];
             if(umdois == 1)
             {
@@ -297,8 +318,20 @@ public class tabManager : MonoBehaviour
             else
             {
                 pai2 = paigo;
-            }            
-            Transform childdachild = paigo.transform.Find("fogo_2_floresta");            
+            }
+            if(paigo.transform.Find("fogo_1_floresta").gameObject.active == true)
+            {
+                childdachild = paigo.transform.Find("fogo_1_floresta");
+            }
+            else if(paigo.transform.Find("fogo_2_floresta").gameObject.active == true)
+            {
+                childdachild = paigo.transform.Find("fogo_2_floresta");
+            }
+            else
+            {
+                childdachild = paigo.transform.Find("fogo_3_floresta");
+            }
+           
             paigo.GetComponent<tabManager>().pegandofogo = true;
             childdachild.GetComponent<SpriteRenderer>().color = new Color(255, 0, 0);
         }
@@ -309,28 +342,9 @@ public class tabManager : MonoBehaviour
        
     }
 
+   
+    
 
-    //public void doisfogoSeguinte(GameObject pai1, GameObject pai2)
-    //{
-    //    randomfogo1 = Random.Range(0, 6);
-    //    randomfogo2 = Random.Range(0, 6);
-    //    if (randomfogo1 == randomfogo2)
-    //    {
-
-    //    }
-    //    if (faces[randomfogo1].name != "meio_casa")
-    //    {
-    //        GameObject papai = pai1.GetComponent<tabManager>().faces[randomfogo1];
-    //        Transform childdachild1 = pai1.GetComponent<tabManager>().faces[randomfogo1].transform.Find("fogo_2_floresta");
-    //        childdachild1.GetComponent<SpriteRenderer>().color = new Color(255, 0, 0);
-
-    //        GameObject papai2 = pai2.GetComponent<tabManager>().faces[randomfogo2];
-    //        Transform childdachild2 = pai2.GetComponent<tabManager>().faces[randomfogo2].transform.Find("fogo_2_floresta");
-    //        childdachild2.GetComponent<SpriteRenderer>().color = new Color(255, 0, 0);
-
-
-    //    }
-    //}
 
 
 
