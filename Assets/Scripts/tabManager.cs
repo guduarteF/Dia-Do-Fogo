@@ -309,7 +309,6 @@ public class tabManager : MonoBehaviour
         if (pai.GetComponent<tabManager>().faces[randomfogo] != null && pai.GetComponent<tabManager>().faces[randomfogo].name != "meio_casa" && pai.GetComponent<tabManager>().faces[randomfogo].GetComponent<tabManager>().pegandofogo == false)
         {
             
-
             GameObject paigo = pai.GetComponent<tabManager>().faces[randomfogo];
             if(umdois == 1)
             {
@@ -331,7 +330,7 @@ public class tabManager : MonoBehaviour
             {
                 childdachild = paigo.transform.Find("fogo_3_floresta");
             }
-           
+
             paigo.GetComponent<tabManager>().pegandofogo = true;
             childdachild.GetComponent<SpriteRenderer>().color = new Color(255, 0, 0);
         }
@@ -341,12 +340,6 @@ public class tabManager : MonoBehaviour
         }
        
     }
-
-   
-    
-
-
-
 
 }
 

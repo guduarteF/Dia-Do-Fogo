@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class cartasmanager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private bool clickado;
     void Start()
     {
         
@@ -13,6 +13,24 @@ public class cartasmanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Vector2 cursosPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+  
+       if(clickado)
+       {
+            gameObject.transform.position = cursosPos;
+            gameObject.transform.eulerAngles = new Vector3(0, 0, 0);
+       }
     }
+
+    private void OnMouseDown()
+    {
+        clickado = true;
+        Debug.Log("clickado");
+    }
+
+
+
+
+
+   
 }

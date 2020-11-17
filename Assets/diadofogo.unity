@@ -472,36 +472,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &118757974
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 118757975}
-  m_Layer: 0
-  m_Name: carta (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &118757975
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 118757974}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.15, y: -4.06, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1613909276}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &126552524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1829,6 +1799,8 @@ GameObject:
   m_Component:
   - component: {fileID: 303653309}
   - component: {fileID: 303653310}
+  - component: {fileID: 303653311}
+  - component: {fileID: 303653312}
   m_Layer: 0
   m_Name: gota
   m_TagString: Untagged
@@ -1900,6 +1872,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &303653311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303653308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 426063bdc2271634fa7bf1b2463949e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &303653312
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303653308}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5102829, y: 2.2697701, z: 0.20000003}
+  m_Center: {x: -0.054435495, y: 0.07018747, z: 0.0000002641115}
 --- !u!1 &332548149
 GameObject:
   m_ObjectHideFlags: 0
@@ -2715,6 +2712,8 @@ GameObject:
   m_Component:
   - component: {fileID: 423855353}
   - component: {fileID: 423855354}
+  - component: {fileID: 423855355}
+  - component: {fileID: 423855356}
   m_Layer: 0
   m_Name: fundo_transp_carta
   m_TagString: Untagged
@@ -2786,6 +2785,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &423855355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423855352}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5059882, y: 2.2281756, z: 0.2}
+  m_Center: {x: -0.090273656, y: 0.060182124, z: 0}
+--- !u!114 &423855356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423855352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1953b4e8c8ba6946a83d168d6b90671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &432840879
 GameObject:
   m_ObjectHideFlags: 0
@@ -4299,36 +4323,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &622560745
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 622560746}
-  m_Layer: 0
-  m_Name: carta
-  m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &622560746
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 622560745}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.46, y: -4.46, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1613909276}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &635551136
 GameObject:
   m_ObjectHideFlags: 0
@@ -5494,36 +5488,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &786934044
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 786934045}
-  m_Layer: 0
-  m_Name: carta (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &786934045
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786934044}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.7, y: -4.18, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1613909276}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &797247024
 GameObject:
   m_ObjectHideFlags: 0
@@ -8114,6 +8078,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1183171203}
   - component: {fileID: 1183171204}
+  - component: {fileID: 1183171205}
+  - component: {fileID: 1183171206}
   m_Layer: 0
   m_Name: bombeiroazul
   m_TagString: Untagged
@@ -8173,7 +8139,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: 1c2bdd0b356be8a4c812817e9bde12bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8185,6 +8151,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1183171205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183171202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 426063bdc2271634fa7bf1b2463949e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1183171206
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183171202}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5102829, y: 2.2697701, z: 0.20000003}
+  m_Center: {x: -0.054435495, y: 0.07018747, z: 0.0000002641115}
 --- !u!1 &1187209602
 GameObject:
   m_ObjectHideFlags: 0
@@ -10457,6 +10448,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1518333807}
   - component: {fileID: 1518333808}
+  - component: {fileID: 1518333809}
+  - component: {fileID: 1518333810}
   m_Layer: 0
   m_Name: fundo_transp_carta (3)
   m_TagString: Untagged
@@ -10528,6 +10521,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1518333809
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518333806}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5059882, y: 2.2281756, z: 0.2}
+  m_Center: {x: -0.090273656, y: 0.060182124, z: 0}
+--- !u!114 &1518333810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518333806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1953b4e8c8ba6946a83d168d6b90671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1519098619
 GameObject:
   m_ObjectHideFlags: 0
@@ -10862,6 +10880,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1555952802}
   - component: {fileID: 1555952803}
+  - component: {fileID: 1555952804}
+  - component: {fileID: 1555952805}
   m_Layer: 0
   m_Name: gotalv3
   m_TagString: Untagged
@@ -10921,7 +10941,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 5f0920eec66a54344b65230e6c907cbe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10933,6 +10953,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1555952804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555952801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 426063bdc2271634fa7bf1b2463949e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1555952805
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555952801}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5102829, y: 2.2697701, z: 0.20000003}
+  m_Center: {x: -0.054435495, y: 0.07018747, z: 0.0000002641115}
 --- !u!1 &1556342255
 GameObject:
   m_ObjectHideFlags: 0
@@ -11371,7 +11416,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1613909276}
-  - component: {fileID: 1613909277}
   m_Layer: 0
   m_Name: mao
   m_TagString: Untagged
@@ -11395,26 +11439,9 @@ Transform:
   - {fileID: 1917518489}
   - {fileID: 1555952802}
   - {fileID: 2089633398}
-  - {fileID: 622560746}
-  - {fileID: 786934045}
-  - {fileID: 118757975}
-  - {fileID: 1911322666}
-  - {fileID: 1958305803}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1613909277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613909275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 426063bdc2271634fa7bf1b2463949e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1623189823
 GameObject:
   m_ObjectHideFlags: 0
@@ -13523,6 +13550,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1863299700}
   - component: {fileID: 1863299701}
+  - component: {fileID: 1863299702}
+  - component: {fileID: 1863299703}
   m_Layer: 0
   m_Name: fundo_transp_carta (2)
   m_TagString: Untagged
@@ -13594,6 +13623,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1863299702
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863299699}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5059882, y: 2.2281756, z: 0.2}
+  m_Center: {x: -0.090273656, y: 0.060182124, z: 0}
+--- !u!114 &1863299703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863299699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1953b4e8c8ba6946a83d168d6b90671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1869152812
 GameObject:
   m_ObjectHideFlags: 0
@@ -13949,36 +14003,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1911322665
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1911322666}
-  m_Layer: 0
-  m_Name: carta (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1911322666
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1911322665}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.06, y: -4.08, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1613909276}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1917518488
 GameObject:
   m_ObjectHideFlags: 0
@@ -13989,6 +14013,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1917518489}
   - component: {fileID: 1917518490}
+  - component: {fileID: 1917518491}
+  - component: {fileID: 1917518492}
   m_Layer: 0
   m_Name: bombeiroverde
   m_TagString: Untagged
@@ -14048,7 +14074,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9a903ba7be5c88c4cae0a6552390bd63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14060,6 +14086,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1917518491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917518488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 426063bdc2271634fa7bf1b2463949e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1917518492
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917518488}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5102829, y: 2.2697701, z: 0.20000003}
+  m_Center: {x: -0.054435495, y: 0.07018747, z: 0.0000002641115}
 --- !u!1 &1923412794
 GameObject:
   m_ObjectHideFlags: 0
@@ -14450,6 +14501,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1957859280}
   - component: {fileID: 1957859281}
+  - component: {fileID: 1957859282}
+  - component: {fileID: 1957859283}
   m_Layer: 0
   m_Name: fundo_transp_carta (1)
   m_TagString: Untagged
@@ -14521,36 +14574,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1958305802
-GameObject:
+--- !u!65 &1957859282
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1958305803}
-  m_Layer: 0
-  m_Name: carta (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1958305803
-Transform:
+  m_GameObject: {fileID: 1957859279}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5059882, y: 2.2281756, z: 0.2}
+  m_Center: {x: -0.090273656, y: 0.060182124, z: 0}
+--- !u!114 &1957859283
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1958305802}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.82, y: -4.51, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1613909276}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 1957859279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1953b4e8c8ba6946a83d168d6b90671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1960589373
 GameObject:
   m_ObjectHideFlags: 0
@@ -14966,6 +15014,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2015902060}
   - component: {fileID: 2015902061}
+  - component: {fileID: 2015902062}
+  - component: {fileID: 2015902063}
   m_Layer: 0
   m_Name: fundo_transp_carta (4)
   m_TagString: Untagged
@@ -15037,6 +15087,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2015902062
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015902059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5059882, y: 2.2281756, z: 0.2}
+  m_Center: {x: -0.090273656, y: 0.060182124, z: 0}
+--- !u!114 &2015902063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015902059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1953b4e8c8ba6946a83d168d6b90671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2019130859
 GameObject:
   m_ObjectHideFlags: 0
@@ -15265,6 +15340,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2089633398}
   - component: {fileID: 2089633399}
+  - component: {fileID: 2089633400}
+  - component: {fileID: 2089633401}
   m_Layer: 0
   m_Name: lendariocaminhaopipa
   m_TagString: Untagged
@@ -15336,6 +15413,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2089633400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089633397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 426063bdc2271634fa7bf1b2463949e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &2089633401
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089633397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5102829, y: 2.2697701, z: 0.20000003}
+  m_Center: {x: -0.054435495, y: 0.07018747, z: 0.0000002641115}
 --- !u!1 &2094179009
 GameObject:
   m_ObjectHideFlags: 0
