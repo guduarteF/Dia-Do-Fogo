@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class droparcarta : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public static droparcarta d;
+   
+    public GameObject carta;
+
+    public Transform cartapos;
+
     void Start()
     {
-        
+        d = this;
     }
 
     // Update is called once per frame
@@ -19,7 +24,16 @@ public class droparcarta : MonoBehaviour
 
     private void OnMouseDown()
     {
-        
+        Debug.Log("mousedown");
+       
+
+        cartasmanager.c.clickado = false;
+        if (carta != null)
+        {
+            carta.transform.position = cartapos.position;
+            carta.transform.localScale = new Vector3(0.79f, 0.79f, 0.79f);
+            Debug.Log("not null");
+        }
     }
 
 }

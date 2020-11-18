@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class cartasmanager : MonoBehaviour
 {
-    private bool clickado;
+    public bool clickado;
+    public static cartasmanager c;
     void Start()
     {
-        
+        c = this;
     }
 
     // Update is called once per frame
@@ -25,7 +26,12 @@ public class cartasmanager : MonoBehaviour
     private void OnMouseDown()
     {
         clickado = true;
-        Debug.Log("clickado");
+        
+        if(clickado)
+        {
+            GetComponent<BoxCollider>().enabled = false;
+        }
+      
     }
 
 
