@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class criartabuleiro : MonoBehaviour
 {
+    public static criartabuleiro t;
     private int numfogo;
     public GameObject[] todos;
     void Start()
     {
+        t = this;
         gerarfogoHex();
     }
 

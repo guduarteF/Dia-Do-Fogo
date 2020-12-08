@@ -6,15 +6,22 @@ public class tabManager : MonoBehaviour
 {
     public static tabManager tm;
     public GameObject[] faces;
-    private int randomfogo;
+    public int randomfogo;
     public bool pegandofogo;
     private GameObject pai1, pai2;
     private bool once, once2, once3, once4, once5, once6,once7,once8;
     private Transform childdachild, child;
+    public GameObject fogoanim;
+    public GameObject[] todos;
+    private int count;
     
 
     void Start()
     {
+        for (int i = 0; i < todos.Length; i++)
+        {
+          //  Instantiate(fogoanim, todos[i].transform.position, fogoanim.transform.rotation);
+        }
         pegandofogo = false;
         tm = this;
         once2 = false;
@@ -27,7 +34,7 @@ public class tabManager : MonoBehaviour
     {
         #region SWITCH
 
-        switch (turnos.t.turno)
+        switch (dados.d.dado_turno)
         {
             case 0:
 
@@ -256,9 +263,15 @@ public class tabManager : MonoBehaviour
                 break;
 
         }
+        #endregion
+
+       
+       
+        
+
     }
 
-    #endregion
+
 
     #region INICIAL
     public void fogoInicial()
@@ -283,7 +296,9 @@ public class tabManager : MonoBehaviour
             }
 
             child.GetComponent<SpriteRenderer>().color = new Color(255, 0, 0);
+            Instantiate(fogoanim, child.transform.position, fogoanim.transform.rotation);
             pai1.GetComponent<tabManager>().pegandofogo = true;
+
             if(this.pai1 == null)
             {
                 this.pai1 = pai1;
@@ -292,8 +307,7 @@ public class tabManager : MonoBehaviour
             else
             {
                 this.pai2 = pai1;
-                this.pai2.GetComponent<tabManager>().pegandofogo = true;
-                
+                this.pai2.GetComponent<tabManager>().pegandofogo = true;               
             }
             
            
@@ -303,41 +317,67 @@ public class tabManager : MonoBehaviour
 
     public void umfogoSeguinte(GameObject pai,int umdois)
     {
-        // CONSTRUTOR COM UM INTEIRO : 1 e 2 
+        
         randomfogo = Random.Range(0, 6);
-        Debug.Log(pai.name +" " +randomfogo);
-        if (pai.GetComponent<tabManager>().faces[randomfogo] != null && pai.GetComponent<tabManager>().faces[randomfogo].name != "meio_casa" && pai.GetComponent<tabManager>().faces[randomfogo].GetComponent<tabManager>().pegandofogo == false)
+        count++;
+        if (count / 2 == 0)
         {
-            
-            GameObject paigo = pai.GetComponent<tabManager>().faces[randomfogo];
-            if(umdois == 1)
-            {
-                pai1 = paigo;
-            }
-            else
-            {
-                pai2 = paigo;
-            }
-            if(paigo.transform.Find("fogo_1_floresta").gameObject.active == true)
-            {
-                childdachild = paigo.transform.Find("fogo_1_floresta");
-            }
-            else if(paigo.transform.Find("fogo_2_floresta").gameObject.active == true)
-            {
-                childdachild = paigo.transform.Find("fogo_2_floresta");
-            }
-            else
-            {
-                childdachild = paigo.transform.Find("fogo_3_floresta");
-            }
-
-            paigo.GetComponent<tabManager>().pegandofogo = true;
-            childdachild.GetComponent<SpriteRenderer>().color = new Color(255, 0, 0);
+            dados.d.jogarDados(randomfogo,2);
         }
         else
         {
-            Debug.Log("Fim de jogo ou meio casa ou pegando fogo"); 
+            dados.d.jogarDados(randomfogo,1);
         }
+        
+        if(pai.GetComponent<tabManager>().faces[randomfogo].name == "limite")
+        {
+            
+                sceneManager.s.fimDeJogo();
+            
+        }
+        else
+        {
+            if (pai.GetComponent<tabManager>().faces[randomfogo] != null && pai.GetComponent<tabManager>().faces[randomfogo].name != "meio_casa" && pai.GetComponent<tabManager>().faces[randomfogo].GetComponent<tabManager>().pegandofogo == false)
+            {
+
+                GameObject paigo = pai.GetComponent<tabManager>().faces[randomfogo];
+                if (umdois == 1)
+                {
+                    pai1 = paigo;
+                }
+                else
+                {
+                    pai2 = paigo;
+                }
+
+
+
+                if (paigo.transform.Find("fogo_1_floresta").gameObject.active == true)
+                {
+                    childdachild = paigo.transform.Find("fogo_1_floresta");
+                }
+                else if (paigo.transform.Find("fogo_2_floresta").gameObject.active == true)
+                {
+                    childdachild = paigo.transform.Find("fogo_2_floresta");
+                }
+                else
+                {
+                    childdachild = paigo.transform.Find("fogo_3_floresta");
+                }
+
+
+
+                paigo.GetComponent<tabManager>().pegandofogo = true;
+                childdachild.GetComponent<SpriteRenderer>().color = new Color(255, 0, 0);
+                Instantiate(fogoanim, childdachild.transform.position, fogoanim.transform.rotation);
+            }
+            else
+            {
+                Debug.Log("Fim de jogo ou meio casa ou pegando fogo");
+            }
+        }
+        
+       
        
     }
 

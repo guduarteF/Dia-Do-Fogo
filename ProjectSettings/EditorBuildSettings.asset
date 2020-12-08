@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/diadofogo.unity
+    guid: 4b93699ab424c19448575a9c4849c53b
+  - enabled: 1
+    path: Assets/Scenes/diadofogo 1.unity
+    guid: ca58b773aca8ced4f8c2c84d0ef6bc1b
+  - enabled: 1
+    path: Assets/Scenes/regras.unity
+    guid: c73dafc98670d594bb340c687f7f2ba0
+  - enabled: 1
+    path: Assets/Scenes/imagens.unity
+    guid: 8a299cf936fd58647a982cc97832dd56
   m_configObjects: {}
