@@ -102,9 +102,9 @@ public class paicartas : MonoBehaviour
                 {
                     gota_row1[3] = gota;
                 }
-                else
-                {                   
-                        gota_row1[4] = gota;    
+                else if (gota_row1[4] == null)
+                {
+                    gota_row1[4] = gota;
                 }
                 break;
 
@@ -126,7 +126,7 @@ public class paicartas : MonoBehaviour
                 {
                     gota_row2[3] = gota;
                 }
-                else
+                else if (gota_row2[4] == null)
                 {
                     gota_row2[4] = gota;
                 }
@@ -148,7 +148,7 @@ public class paicartas : MonoBehaviour
                 {
                     gota_row3[3] = gota;
                 }
-                else
+                else if(gota_row3[4] == null)
                 {
                     gota_row3[4] = gota;
                 }
@@ -170,7 +170,7 @@ public class paicartas : MonoBehaviour
                 {
                     gota_row4[3] = gota;
                 }
-                else
+                else if (gota_row4[4] == null)
                 {
                     gota_row4[4] = gota;
                 }
@@ -192,7 +192,7 @@ public class paicartas : MonoBehaviour
                 {
                     gota_row5[3] = gota;
                 }
-                else
+                else if (gota_row5[4] == null)
                 {
                     gota_row5[4] = gota;
                 }

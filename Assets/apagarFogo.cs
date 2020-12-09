@@ -45,10 +45,14 @@ public class apagarFogo : MonoBehaviour
                 if (paicartas.p.go_1.GetComponent<cartasmanager>().poder_de_agua >= fogo_qtd)
                 {
                     floresta.SetActive(true);
-                    paicartas.p.cancela_row1 = false;
+                    
                     paicartas.p.ativa_row1 = true;
                     gameObject.SetActive(false);
                     
+                }
+                else
+                {
+                    // DESTRUIR CARTAS INFERIORES
                 }
             }
             else
@@ -67,7 +71,7 @@ public class apagarFogo : MonoBehaviour
                 if (paicartas.p.go_2.GetComponent<cartasmanager>().poder_de_agua >= fogo_qtd)
                 {
                     floresta.SetActive(true);
-                    paicartas.p.cancela_row2 = false;
+                    
                     paicartas.p.ativa_row2 = true;
                     gameObject.SetActive(false);
                    
@@ -83,7 +87,7 @@ public class apagarFogo : MonoBehaviour
                 if (paicartas.p.go_3.GetComponent<cartasmanager>().poder_de_agua >= fogo_qtd)
                 {
                     floresta.SetActive(true);
-                    paicartas.p.cancela_row3 = false;
+                    
                     paicartas.p.ativa_row3 = true;
                     gameObject.SetActive(false);
                     
@@ -100,7 +104,7 @@ public class apagarFogo : MonoBehaviour
                 if (paicartas.p.go_4.GetComponent<cartasmanager>().poder_de_agua >= fogo_qtd)
                 {
                     floresta.SetActive(true);
-                    paicartas.p.cancela_row4 = false;
+                    
                     paicartas.p.ativa_row4 = true;
                     gameObject.SetActive(false);
                     
@@ -115,7 +119,7 @@ public class apagarFogo : MonoBehaviour
                 if (paicartas.p.go_5.GetComponent<cartasmanager>().poder_de_agua >= fogo_qtd)
                 {
                     floresta.SetActive(true);
-                    paicartas.p.cancela_row5 = false;
+                   
                     paicartas.p.ativa_row5 = true;
                     gameObject.SetActive(false);
                     

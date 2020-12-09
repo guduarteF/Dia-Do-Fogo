@@ -31,7 +31,7 @@ public class droparcarta : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (paicartas.p.cancela_row1 == false && paicartas.p.cancela_row2 == false && paicartas.p.cancela_row3== false && paicartas.p.cancela_row4 == false && paicartas.p.cancela_row5 == false)
+        if (paicartas.p.cancela_row1 == false && paicartas.p.cancela_row2 == false && paicartas.p.cancela_row3 == false && paicartas.p.cancela_row4 == false && paicartas.p.cancela_row5 == false)
         {
             GameObject[] carta = GameObject.FindGameObjectsWithTag("carta");
             GameObject[] gota = GameObject.FindGameObjectsWithTag("gota");
@@ -63,7 +63,7 @@ public class droparcarta : MonoBehaviour
 
             }
 
-            if (r_carta != null && r_carta.tag == "gota")
+            if (r_carta != null && r_carta.tag == "gota" && r_carta.GetComponent<cartasmanager>().clickado_gota == true)
             {
                 r_carta.GetComponent<cartasmanager>().clickado_gota = false;
 
@@ -116,18 +116,18 @@ public class droparcarta : MonoBehaviour
         }
         else if (pos_num == 3)
         {
-            paicartas.p.setar_carta_row(carta, 2);
-            apagarFogo.a.verificarNivel(carta, 2);
-        }
-        else if (pos_num == 4)
-        {
             paicartas.p.setar_carta_row(carta, 3);
             apagarFogo.a.verificarNivel(carta, 3);
         }
-        else
+        else if (pos_num == 4)
         {
             paicartas.p.setar_carta_row(carta, 4);
             apagarFogo.a.verificarNivel(carta, 4);
+        }
+        else
+        {
+            paicartas.p.setar_carta_row(carta, 5);
+            apagarFogo.a.verificarNivel(carta, 5);
         }
     }
 
@@ -143,15 +143,15 @@ public class droparcarta : MonoBehaviour
         }
         else if (pos_num == 3)
         {
-            paicartas.p.setar_gota_row(gota, 2);
+            paicartas.p.setar_gota_row(gota, 3);
         }
         else if (pos_num == 4)
         {
-            paicartas.p.setar_gota_row(gota, 3);
+            paicartas.p.setar_gota_row(gota, 4);
         }
         else
         {
-            paicartas.p.setar_gota_row(gota, 4);
+            paicartas.p.setar_gota_row(gota, 5);
         }
     }
 

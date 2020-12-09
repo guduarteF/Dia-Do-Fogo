@@ -9,6 +9,8 @@ public class cartasmanager : MonoBehaviour
     public GameObject thisobj;
     private int num;
     public int poder_de_agua;
+    public bool esta_na_mao;
+    public int pos_atual_mao;
     
 
     void Start()
@@ -20,6 +22,8 @@ public class cartasmanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        
         Vector2 cursosPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         if (clickado_carta || clickado_gota)
@@ -40,6 +44,7 @@ public class cartasmanager : MonoBehaviour
                 thisobj = gameObject;
                 clickado_gota = true;
                 GetComponent<BoxCollider2D>().enabled = false;
+                esta_na_mao = false;
             }
             else
             {

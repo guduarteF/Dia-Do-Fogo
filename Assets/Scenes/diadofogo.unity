@@ -1101,6 +1101,8 @@ MonoBehaviour:
   clickado_gota: 0
   thisobj: {fileID: 92335645}
   poder_de_agua: 2
+  esta_na_mao: 0
+  pos_atual_mao: 0
 --- !u!61 &92335647
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5104,6 +5106,8 @@ MonoBehaviour:
   clickado_gota: 0
   thisobj: {fileID: 397793969}
   poder_de_agua: 3
+  esta_na_mao: 0
+  pos_atual_mao: 0
 --- !u!1 &412723746
 GameObject:
   m_ObjectHideFlags: 0
@@ -16563,6 +16567,8 @@ MonoBehaviour:
   clickado_gota: 0
   thisobj: {fileID: 1183171202}
   poder_de_agua: 2
+  esta_na_mao: 0
+  pos_atual_mao: 0
 --- !u!61 &1183171206
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17758,6 +17764,8 @@ MonoBehaviour:
   clickado_gota: 0
   thisobj: {fileID: 1285023980}
   poder_de_agua: 1
+  esta_na_mao: 0
+  pos_atual_mao: 0
 --- !u!61 &1285023982
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19167,6 +19175,8 @@ MonoBehaviour:
   clickado_gota: 0
   thisobj: {fileID: 1355566237}
   poder_de_agua: 4
+  esta_na_mao: 0
+  pos_atual_mao: 0
 --- !u!61 &1355566239
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22102,6 +22112,8 @@ MonoBehaviour:
   clickado_gota: 0
   thisobj: {fileID: 1555952801}
   poder_de_agua: 3
+  esta_na_mao: 0
+  pos_atual_mao: 0
 --- !u!61 &1555952805
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27486,6 +27498,8 @@ MonoBehaviour:
   clickado_gota: 0
   thisobj: {fileID: 1917518488}
   poder_de_agua: 1
+  esta_na_mao: 0
+  pos_atual_mao: 0
 --- !u!61 &1917518492
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30071,6 +30085,8 @@ MonoBehaviour:
   clickado_gota: 0
   thisobj: {fileID: 2089633397}
   poder_de_agua: 4
+  esta_na_mao: 0
+  pos_atual_mao: 0
 --- !u!61 &2089633401
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30374,7 +30390,6 @@ GameObject:
   - component: {fileID: 2109294559}
   - component: {fileID: 2109294558}
   - component: {fileID: 2109294557}
-  - component: {fileID: 2109294560}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -30448,7 +30463,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2109294558}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1613909277}
+        m_MethodName: comprarCarta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2109294558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30486,18 +30512,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109294555}
   m_CullTransparentMesh: 0
---- !u!114 &2109294560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109294555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ea5cf66d4dd06f4e93659df06702870, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2111683501
 GameObject:
   m_ObjectHideFlags: 0
