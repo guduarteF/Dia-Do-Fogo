@@ -51,6 +51,7 @@ public class cartasmanager : MonoBehaviour
                 thisobj = gameObject;
                 clickado_carta = true;
                 GetComponent<BoxCollider2D>().enabled = false;
+                esta_na_mao = false;
             }
         }
     }

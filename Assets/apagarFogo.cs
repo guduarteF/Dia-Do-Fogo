@@ -12,21 +12,22 @@ public class apagarFogo : MonoBehaviour
     void Start()
     {
         a = this;
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if(gameObject.name == "fogo_1_floresta")
+        if (gameObject.name == "fogo_1_floresta")
         {
             fogo_qtd = 1;
         }
-        else if(gameObject.name == "fogo_2_floresta")
+        else if (gameObject.name == "fogo_2_floresta")
         {
             fogo_qtd = 2;
         }
-        else if(gameObject.name == "fogo_3_floresta")
+        else if (gameObject.name == "fogo_3_floresta")
         {
             fogo_qtd = 3;
         }

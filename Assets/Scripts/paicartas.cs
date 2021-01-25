@@ -20,6 +20,7 @@ public class paicartas : MonoBehaviour
     public bool cancela_row1, cancela_row2,cancela_row3, cancela_row4, cancela_row5;
     public bool ativa_row1, ativa_row2, ativa_row3, ativa_row4, ativa_row5;
     private int count1,count2,count3,count4,count5;
+    public GameObject particle01;
 
 
     void Start()
@@ -106,6 +107,11 @@ public class paicartas : MonoBehaviour
                 {
                     gota_row1[4] = gota;
                 }
+                else
+                {
+                    return;
+                }
+                
                 break;
 
             case 2:
@@ -130,6 +136,10 @@ public class paicartas : MonoBehaviour
                 {
                     gota_row2[4] = gota;
                 }
+                else
+                {
+                    return;
+                }
                 break;
             case 3:
                 if (gota_row3[0] == null)
@@ -151,6 +161,10 @@ public class paicartas : MonoBehaviour
                 else if(gota_row3[4] == null)
                 {
                     gota_row3[4] = gota;
+                }
+                else
+                {
+                    return;
                 }
                 break;
             case 4:
@@ -174,6 +188,10 @@ public class paicartas : MonoBehaviour
                 {
                     gota_row4[4] = gota;
                 }
+                else
+                {
+                    return;
+                }
                 break;
             case 5:
                  if (gota_row5[0] == null)
@@ -195,6 +213,10 @@ public class paicartas : MonoBehaviour
                 else if (gota_row5[4] == null)
                 {
                     gota_row5[4] = gota;
+                }
+                else
+                {
+                    return;
                 }
                 break;
         }
@@ -264,6 +286,7 @@ public class paicartas : MonoBehaviour
                    
                     Destroy(go_1);
                     Destroy(gota_row1[i]);
+                    
                     cancela_row1 = false;
 
                 }
@@ -276,7 +299,7 @@ public class paicartas : MonoBehaviour
             {
                 for (int i = 0; i < gota_row2.Length; i++)
                 {
-
+                   
                     Destroy(go_2);
                     Destroy(gota_row2[i]);
                     cancela_row2 = false;
@@ -290,7 +313,7 @@ public class paicartas : MonoBehaviour
             {
                 for (int i = 0; i < gota_row3.Length; i++)
                 {
-
+                  
                     Destroy(go_3);
                     Destroy(gota_row3[i]);
                     cancela_row3 = false;
@@ -305,7 +328,7 @@ public class paicartas : MonoBehaviour
             {
                 for (int i = 0; i < gota_row4.Length; i++)
                 {
-
+                  
                     Destroy(go_4);
                     Destroy(gota_row4[i]);
                     cancela_row4 = false;
@@ -319,7 +342,7 @@ public class paicartas : MonoBehaviour
             {
                 for (int i = 0; i < gota_row5.Length; i++)
                 {
-
+                   
                     Destroy(go_5);
                     Destroy(gota_row5[i]);
                     cancela_row5 = false;
